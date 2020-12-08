@@ -1,0 +1,26 @@
+Class Name Noun + Class Name Capital
+Instance Variable Private camel case
+Methods public camelCase , Name verb
+
+SRP - Single Responsibility Principle
+DRY - Don’t Repeat YourSelf
+Constructor Chaining, Setter , getter
+Test has Separate class
+
+Employee Salary Slip
+Id - 
+Name - 
+Basic Salary - 
+
+HRA - 30% of Basic Salary
+DA - 10% of Basic Salary
+TA - 20% of Basic Salary
+PF - 5% of Basic Salary
+GS = BS + HRA + DA + TA - PF
+TAX = GS >9L 30% TAX
+9L <   >7L 20% TAX
+<7L >5L - 10% TAX
+<5L No Tax
+NS = GS - TAX
+
+
