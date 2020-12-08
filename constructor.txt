@@ -1,0 +1,11 @@
+Constructor 
+1. It call when object is created
+2. Use to initialise the instance members of a class
+3. Every class by default has default constructor
+4. Class name and constructor name must be same
+5. Constructor return nothing 
+6. If u specify any return type in constructor even void , it is treated 
+As a function/ method.
+7. U can create more than one constructor and it is called as constructor overloading.
+8. Constructor can call other constructor in a same class by using a this keyword call.
+9. Default scope of a constructor is same as class scope.
