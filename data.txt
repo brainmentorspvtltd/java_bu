@@ -1,0 +1,56 @@
+Use of final in Java?
+A) to make constants
+b) to prevent inheritance
+c) to prevent overriding
+
+Final object
+
+Instance Members vs Class Members (static)
+Instance Members comes in the memory when object is created.
+ So it Created How many times? Per Object time
+It comes lazy in the memory because when object is created then only they come.
+If u put final in front of Instance Variables so it is constant but create N number of times, based on how many times u create the object.
+They bind with objects
+
+Static
+It is created on the memory when class is loaded.
+It means it come early, yes it can change, but it bind with a class so it share among all the objects.
+
+Final vs static
+Static —> It is created on the memory when class is loaded.
+It means it come early, yes it can change, but it bind with a class so it share among all the objects.
+I am Bind with class.
+Final —> Means Fix / Constants, Final can be use with 
+1. Instance Variables
+2. Static Variables
+3. Local Variables
+
+Constructor —> To initialise the instance variables of a class
+Constructor call when object is created.
+
+Static Usage
+1. Static with Variable
+2. Static with Methods (Utility Class)
+3. Static block - to initialise the static variables , it call when class is loaded.
+4. Static import. (Java 5)
+Import vs static import
+Import only import the classes.
+Import static import the static member of the class.
+
+Packages - packages contains the sub packages or classes.
+Packages divide the code in different folders (packages) to segregate the relevant code.
+e.g Dao (data access object) contains the files related to the db operations.
+Helper package contains the files related to the logic
+Ui package contains the files related to the screen design.
+
+To call files from the different packages we need to import it 
+Only public things accessible outside the package.
+Interfaces
+
+
+Class Modifier for Outer class
+Public (Can be access outside the package) / default (access with in the package)
+Can class be private / protected/ static - Yes if it is a member class.
+
+
+
