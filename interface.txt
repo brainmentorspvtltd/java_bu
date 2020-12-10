@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+Why we need Interface
+Standard,Prototype
+Abstraction (Loosely Coupled App) (Factory, Upcasting)
+Abstract Class vs Interface (5)
+How many ways to use interfaces
+Is Interface is 100% Abstract
+By default all the methods are abstract, so we can say it is 100% abstract.
+
+Interface can extend another interface , but class only implement the interface.
+Interface can extend multiple interfaces, that’s make multiple inheritance.
+
+Multiple Inheritance is possible in Java
+Yes - In case of Interfaces
+Why
+Interface object is not created because interface is abstract.
+Interface contains the static final constants
+Static never need constructor , only instance things need constructor. So there no need of constructor
+So no constructor chaining problem in interface multiple inheritance.
+No Ambiguity problem , because methods are abstract so they are blank so no conflict on blank method.
+Constant can conflict - NO because all constants are static so that bind with interface name.
+
+How to Design Loosely Coupled Application
+
+Why we create abstract class
+It is a most generic class e.g Loan , Course, Account
+And it’s object creation is meaning less. That’s why are not able to create the object of abstract class.
+It is act as a parent class it contains the common features and it is use or consume by the child class via inheritance.
+
+
+
+Overriding Rules
+1. When u have a parent method with some scope mention.
+And when u override in a child u can increase the scope or take the same scope.
+
+Scopes
+In Java We have 5 Scopes
+A) private —> with in the class
+b) default —> If u not specify any scope in front of class members, it is by default a default scope , and the life of the default scope is with in the package (folder).
+c) protected —> it is with in the package, and can access outside the package but using inheritance.
+d) public - with in the package and can access outside the package
+E) local scope - with in the function / method scope.
